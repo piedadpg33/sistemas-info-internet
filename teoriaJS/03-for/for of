@@ -1,0 +1,6 @@
+//ejemplo: listar un array
+let animales = ['perro', 'tortuga', 'oso'];
+
+for (let animal of animales) {
+    console.log(animal);
+}

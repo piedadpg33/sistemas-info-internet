@@ -1,0 +1,11 @@
+// ejemplo: listar propiedades de os objetos
+
+let user = {
+    name: 'Pepito',
+    id: 1,
+    age: 13,
+};
+
+for (let propiedad in user) {
+    console.log(propiedad, user[propiedad]);
+}

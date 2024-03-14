@@ -1,0 +1,16 @@
+<section>
+@if (isLoggedIn){
+    
+    <img  class=celebra src="https://i.pinimg.com/originals/d3/c6/8a/d3c68aeb6f9ead3e57f80f12d12304b8.gif"/>
+    <p>Bienvenido {{username}}</p>
+    
+    <img 
+    (click)="greet()" (click)="alerta()"
+    alt="photo" src="https://github.com/kunSurenioRBG.png" />
+    <br>
+    <button (click)="isLoggedIn= false">Cerrar sesion</button>
+} @else{
+    <p>Inicia sesion</p>
+    <button (click)="isLoggedIn = true">LOG IN</button>
+}
+</section>
